@@ -233,11 +233,6 @@ if (true) {
         <span class="tagsPageCount">3</span>
       </a>
     
-      <a href="/tags/Dole/" id="/tags/Dole/">
-        <span class="tags-punctuation">#</span>Dole
-        <span class="tagsPageCount">1</span>
-      </a>
-    
       <a href="/tags/Centos/" id="/tags/Centos/">
         <span class="tags-punctuation">#</span>Centos
         <span class="tagsPageCount">1</span>
@@ -245,6 +240,11 @@ if (true) {
     
       <a href="/tags/Linux/" id="/tags/Linux/">
         <span class="tags-punctuation">#</span>Linux
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/Dole/" id="/tags/Dole/">
+        <span class="tags-punctuation">#</span>Dole
         <span class="tagsPageCount">1</span>
       </a>
     
@@ -278,7 +278,7 @@ if (true) {
   getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
     jinrishici.load(result =>{
       if (true) {
-        const sub = ["生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期."]
+        const sub = []
         const content = result.data.content
         sub.unshift(content)
         window.typed = new Typed('#footer-type-tips', {
