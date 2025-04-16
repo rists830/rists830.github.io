@@ -10808,7 +10808,7 @@ h1.page-title + .tag-cloud-list {
   transition: 0.3s;
 }
 #page-header.full_page {
-  height: 300em;
+  height: 300px;
   background-attachment: fixed;
   border-radius: 0;
 }
